@@ -9133,6 +9133,7 @@
   structured_inherits: TensorIteratorBase
   dispatch:
     CPU, CUDA: digamma_out
+    MPS: digamma_out_mps
   tags: pointwise
 
 - func: digamma(Tensor self) -> Tensor
